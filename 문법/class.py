@@ -3,10 +3,14 @@ class Rect:
         self.width = width
         self.height = height
     def get_area(self):
+
         return self.width * self.height
 
-rect1 = Rect(10,20)
-print(rect1.get_area())
+# rect1 = Rect(10,20)
+# print(rect1.get_area())
+# rect1.width = 20
+# print(rect1.get_area())
+
 
 class Square(Rect):
     def __init__(self, side):
